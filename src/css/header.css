@@ -36,7 +36,7 @@ color: #0c0c0c;
     border: none;
     line-height: 0;
     padding: 12px 4px;
-    fill: #0C0C0C;
+    stroke: #0C0C0C;
 }
 .mobile-menu-open-btn-icon {
     stroke-width: 2px;

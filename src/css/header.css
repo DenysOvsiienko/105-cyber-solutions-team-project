@@ -7,7 +7,6 @@
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(12, 12, 12, 0.1);
 }
-
 .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -39,12 +38,9 @@ color: #0c0c0c;
     padding: 12px 4px;
     fill: #0C0C0C;
 }
-
 .mobile-menu-open-btn-icon {
     stroke-width: 2px;
 }
-
-
 @media only screen and (min-width:375px) {
 .container {
     max-width: 375px;
@@ -52,9 +48,6 @@ color: #0c0c0c;
     padding-left: 20px;   
 }
 }
-
-
-
 @media only screen and (min-width:768px) {
 
 .page-header {
@@ -66,7 +59,6 @@ color: #0c0c0c;
         padding-right: 32px;
         padding-left: 32px;      
 }
-
 .logo {
     font-size: 20px;
 }
@@ -81,11 +73,6 @@ color: #0c0c0c;
     height: 16px;
 }
 }
-
-
-
-
-
 @media only screen and (min-width:1280px) {
     .mobile-menu-open-btn,
     .mobile-menu-open-btn-icon {
@@ -105,16 +92,13 @@ color: #0c0c0c;
 display: flex;
 gap: 40px;
 }
-
 .header-container {
     display: flex;
     justify-content: space-between;
 }
-
 .logo {
     margin-right: 203px;
 }
-
 .header-social-menu {
     display: flex;
     gap: 10px;

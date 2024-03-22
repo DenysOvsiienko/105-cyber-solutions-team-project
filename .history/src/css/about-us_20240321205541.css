@@ -1,0 +1,15 @@
+.block {
+    width: 335px;
+    height: 446px;
+    gap: 0px;
+    opacity: 0px;
+}
+.text {
+    width: 295px;
+    height: 278px;
+    top: 40px;
+    left: 20px;
+    gap: 28px;
+    opacity: 0px;
+
+}

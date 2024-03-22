@@ -1,0 +1,42 @@
+.about-us-sect {
+    padding: 0px 20px;
+width: 375px;
+height: 912px;
+}
+.block {
+    width: 335px;
+    height: 446px;
+    gap: 0px;
+    background: #f3f3f3;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.text {
+    width: 295px;
+    height: 278px;
+    top: 40px;
+    left: 20px;
+    gap: 28px;
+    opacity: 0px;
+
+}
+.about-us {
+    
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.button {
+    width: 160px;
+    height: 48px;
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+img {
+    border-radius: 30px;
+}

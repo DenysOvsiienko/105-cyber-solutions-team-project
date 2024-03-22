@@ -1,7 +1,7 @@
 .about-us-sect {
     padding: 0px 20px;
-    width: 375px;
-    height: 912px;
+width: 375px;
+height: 912px;
 }
 .block {
     width: 335px;
@@ -13,35 +13,37 @@
 }
 .text {
     width: 295px;
-    height: 278px;
+height: 278px;
+}
+.text-par-1 {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.7);
+margin-bottom: 20px;
+}
+.text-par-2 {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.7);
+padding-bottom: 40px;
 }
 .about-us {
+    font-family: 'Gilroy', sans-serif;;
     font-weight: 600;
     font-size: 32px;
-    line-height: 1;
+    line-height: 100%;
     letter-spacing: -0.02em;
     color: #000000;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     padding-top: 40px;
     margin-left: 20px;
 }
-.text-par-1 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
-    margin-bottom: 20px;
-}
-
-.text-par-2 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
-/* padding-bottom: 40px; */
-}
-
 .block-par {
     width: 295px;
     height: 278px;
@@ -51,15 +53,14 @@
 .button {
     width: 160px;
     height: 48px;
-    color: #fbfbfb;
-    background-color: #3350e9;
-    display: block;
+    color: #f3f3f3;
+    background-color: #3350;
     border: none;
     font-weight: 500;
-    border-radius: 16px;
+    border-radius: 14px;
     line-height: 1.29;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 20px;
     margin-bottom: 40px;
 }

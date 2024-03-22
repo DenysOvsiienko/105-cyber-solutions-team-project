@@ -1,9 +1,4 @@
-/* ___Desktop adaptation___ */
-@media screen and (min-width: 1280px) {
-    .menu {
-      display: none;
-    }
-  }
+
 /* ___Mobile adaptation___ */
 .menu {
   position: fixed;
@@ -195,3 +190,9 @@
     height: 40px;
   }
 }
+/* ___Desktop adaptation___ */
+@media screen and (min-width: 1280px) {
+    .menu {
+      display: none;
+    }
+  }

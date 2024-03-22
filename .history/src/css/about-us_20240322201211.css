@@ -69,8 +69,7 @@
     height: 446px;
 }
 
-
-/* @media screen (min-width: 768px;) {
+@media screen (min-width: 768px;) {
     .container {
         padding: 0px 32px;
         width: 768px;
@@ -106,4 +105,4 @@
         width: 704px;
         height: 512px;
     }
-} */
+}

@@ -23,9 +23,7 @@ color: #0c0c0c;
     display: none;
 }
 .mobile-menu-open-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 12px 4px;
     width: 34px;
     height: 34px;
     background-color: transparent;

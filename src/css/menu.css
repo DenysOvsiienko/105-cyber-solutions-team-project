@@ -41,7 +41,7 @@
 }
 
 @media screen and (min-resolution: 192dpi) {
-  .solutions {
+  .menu-container {
     background-image: linear-gradient(
         to bottom,
         rgba(12, 12, 12, 0.92),
@@ -65,12 +65,6 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-}
-
-.menu-close-btn .icon {
-  display: block;
-  width: 17px;
-  height: 17px;
 }
 
 .menu-content-container {
@@ -163,8 +157,13 @@
       url(/img/menu/tablet-menu-bg.jpg);
   }
 
+  .menu-close-btn .icon {
+    width: 40px;
+    height: 40px;
+  }
+
   @media screen and (min-resolution: 192dpi) {
-    .solutions {
+    .menu-container {
       background-image: linear-gradient(
           to bottom,
           rgba(12, 12, 12, 0.92),
@@ -188,12 +187,5 @@
     right: 32px;
     width: 40px;
     height: 40px;
-  }
-}
-
-/* ___Desktop adaptation___ */
-@media screen and (min-width: 1280px) {
-  .menu {
-    display: none;
   }
 }

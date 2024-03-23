@@ -5,6 +5,7 @@
 }
 
 .about-us-text-wrapper {
+  display: block;
   width: 100%;
   padding: 40px 20px;
   background-color: #f3f3f3;
@@ -94,9 +95,6 @@
   .about-us-title {
     font-size: 48px;
     line-height: 0.92;
-  }
-  .about-us-text-container {
-    margin-bottom: 40px;
   }
   .about-us-photo {
     max-width: 580px;

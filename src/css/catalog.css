@@ -96,3 +96,15 @@
     display: none;
   }
 }
+/* ______Desktop adaptation___ */
+@media screen and (min-width: 1280px) {
+  .catalog {
+    margin: 50px 0;
+  }
+  .catalog-list {
+    column-gap: 23px;
+  }
+  .catalog-list-item {
+    width: calc((100% - 2 * 23px) / 3);
+  }
+}

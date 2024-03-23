@@ -109,6 +109,10 @@ body {
 }
 
 /* ___Mobile adaptation___ */
+section {
+  margin-top: 60px;
+}
+
 .container {
   max-width: 375px;
   padding: 0 20px;
@@ -117,6 +121,10 @@ body {
 
 /* ___Tablet adaptation___ */
 @media screen and (min-width: 768px) {
+  section {
+    margin-top: 80px;
+  }
+
   .container {
     max-width: 768px;
     padding: 0 32px;
@@ -125,6 +133,10 @@ body {
 
 /* ___Desktop adaptation___ */
 @media screen and (min-width: 1280px) {
+  section {
+    margin-top: 80px;
+  }
+
   .container {
     max-width: 1280px;
     padding: 0 65px;

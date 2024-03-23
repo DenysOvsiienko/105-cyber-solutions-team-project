@@ -46,7 +46,7 @@
   color: rgba(12, 12, 12, 0.5);
 }
 
-.main-btn {
+.catalog .main-btn {
   display: block;
   margin: 0 auto;
 }
@@ -86,7 +86,7 @@
   .catalog-list-item:nth-child(n + 5) {
     display: block;
   }
-  .main-btn {
+  .catalog .main-btn {
     display: none;
   }
 }

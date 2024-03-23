@@ -21,7 +21,7 @@
   flex-direction: column;
   border-radius: 30px;
   border: 1px solid rgba(12, 12, 12, 0.05);
-  background: #f3f3f3;
+  background-color: #f3f3f3;
   padding: 24px 28px;
   gap: 10px;
 }
@@ -57,4 +57,39 @@
 
 .catalog-list-item:nth-child(n + 5) {
   display: none;
+}
+/* ______Tablet adaptation _______ */
+@media screen and (min-width: 768px) {
+  .catalog {
+    margin: 40px 0;
+  }
+  .catalog-title {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .catalog-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    column-gap: 16px;
+    row-gap: 32px;
+  }
+  .catalog-list-item {
+    width: calc((100% - 16px) / 2);
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .catalog-list-picture-wrapp {
+    padding: 10px 0;
+  }
+  .catalog-list-title {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .catalog-list-item:nth-child(n + 5) {
+    display: block;
+  }
+  .main-btn {
+    display: none;
+  }
 }

@@ -60,3 +60,25 @@
 .about-us-photo {
   border-radius: 30px;
 }
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    margin: 40px 0;
+  }
+  .about-us-title {
+    font-size: 48px;
+    line-height: 0.9;
+    margin-bottom: 40px;
+  }
+  .about-us-text-container {
+    margin-bottom: 60px;
+  }
+  .about-us-text-wrapper {
+    padding: 80px 60px;
+  }
+  .about-us .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}

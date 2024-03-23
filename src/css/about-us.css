@@ -58,6 +58,7 @@
 
 .about-us-photo {
   border-radius: 30px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -102,5 +103,3 @@
     max-width: 580px;
   }
 }
-
-

@@ -89,9 +89,9 @@
   .about-us .container {
     flex-direction: row;
   }
-  .about-us-text-wrapper {
+  /* .about-us-text-wrapper {
     max-width: 530px;
-  }
+  } */
   .about-us-title {
     font-size: 48px;
     line-height: 0.92;

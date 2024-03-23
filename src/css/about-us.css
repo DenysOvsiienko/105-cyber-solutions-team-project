@@ -62,13 +62,17 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about-us {
-    margin: 40px 0;
+  .about-us .container {
+    gap: 40px;
   }
   .about-us-title {
     font-size: 48px;
-    line-height: 0.9;
+    line-height: 0.92;
     margin-bottom: 40px;
+  }
+  .about-us-paragraph {
+    font-size: 16px;
+    line-height: 1.25;
   }
   .about-us-text-container {
     margin-bottom: 60px;
@@ -76,9 +80,7 @@
   .about-us-text-wrapper {
     padding: 80px 60px;
   }
-  .about-us .container {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  .about-us-photo {
+    border-radius: 50px;
   }
 }

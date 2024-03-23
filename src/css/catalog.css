@@ -14,13 +14,16 @@
 }
 .catalog-list-item {
   width: 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   border-radius: 30px;
   border: 1px solid rgba(12, 12, 12, 0.05);
   background-color: #f3f3f3;
   padding: 24px 28px;
   gap: 10px;
+}
+.catalog-list-item.visible {
+  display: flex;
 }
 .catalog-list-picture-wrapp {
   display: flex;
@@ -51,9 +54,10 @@
   margin: 0 auto;
 }
 
-.catalog-list-item:nth-child(n + 5) {
+/* .catalog-list-item:nth-child(n + 5) {
   display: none;
-}
+} */
+
 /* ______Tablet adaptation _______ */
 @media screen and (min-width: 768px) {
   .catalog-title {

@@ -1,0 +1,74 @@
+<section class="contact-us" id="contact-us">
+  <div class="container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="contact-body-box">
+      <div class="input-box">
+        <p class="contact-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-form">
+          <input
+            class="contact-form-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="Name"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            required
+          />
+          <input
+            class="contact-form-input"
+            type="email"
+            id="user-email"
+            name="user-email"
+            placeholder="Email"
+            required
+          />
+          <input
+            class="contact-form-input"
+            type="tel"
+            id="user-phone"
+            name="user-phone"
+            placeholder="+380"
+            pattern="\+?[0-9\s\-\(\)]+"
+            required
+          />
+          <textarea
+            class="textarea-box"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+          <button class="main-btn" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="contact-img-box">
+        <picture>
+          <source
+            srcset="
+              ./img/contact-us/desktop-contact-us-img.jpg    1x,
+              ./img/contact-us/desktop-contact-us-img@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/contact-us/tablet-contact-us-img.jpg    1x,
+              ./img/contact-us/tablet-contact-us-img@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/contact-us/mobile-contact-us-img.jpg    1x,
+              ./img/contact-us/mobile-contact-us-img@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img src="./img/contact-us/mobile-contact-us-img.jpg" alt="Watch" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>

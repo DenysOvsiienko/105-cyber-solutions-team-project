@@ -33,7 +33,6 @@
 .catalog-list-title-wrapp {
   display: flex;
   flex-direction: column;
-  align-self: start;
   gap: 8px;
 }
 .catalog-list-title {
@@ -85,6 +84,10 @@
   .catalog-list-title {
     font-size: 20px;
     line-height: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
   }
   .catalog-list-item:nth-child(n + 5) {
     display: block;

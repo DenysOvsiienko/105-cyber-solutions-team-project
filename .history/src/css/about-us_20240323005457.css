@@ -57,7 +57,7 @@
   border-radius: 30px;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .about-us {
     margin: 40px 0;
   }
@@ -69,23 +69,10 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .about-us .container {
-    flex-direction: row;
-    margin: 0 65px;
-  }
-  .about-us-text-wrapper {
-    max-width: 580px;
-    padding: 80px 60px;
-  }
-  .about-us-title {
-    font-size: 48px;
-    line-height: 0.92;
-  }
-  .about-us-paragraph {
-    font-size: 16px;
-    line-height: 1.25;
+  .container {
+    flex-wrap: nowrap;
   }
   .about-us-photo {
     border-radius: 50px;
   }
-} */
+}

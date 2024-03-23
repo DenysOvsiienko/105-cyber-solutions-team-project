@@ -57,7 +57,7 @@
   border-radius: 30px;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .about-us {
     margin: 40px 0;
   }
@@ -88,4 +88,4 @@
   .about-us-photo {
     border-radius: 50px;
   }
-} */
+}

@@ -56,9 +56,6 @@
 }
 /* ______Tablet adaptation _______ */
 @media screen and (min-width: 768px) {
-  .catalog {
-    margin: 40px 0;
-  }
   .catalog-title {
     font-size: 48px;
     margin-bottom: 40px;
@@ -95,9 +92,6 @@
 }
 /* ______Desktop adaptation___ */
 @media screen and (min-width: 1280px) {
-  .catalog {
-    margin: 50px 0;
-  }
   .catalog-list {
     column-gap: 23px;
   }

@@ -96,6 +96,9 @@
     font-size: 48px;
     line-height: 0.92;
   }
+  .about-us-text-container {
+    margin-bottom: 40px;
+  }
   .about-us-photo {
     max-width: 580px;
   }

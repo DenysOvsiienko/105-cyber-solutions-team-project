@@ -23,6 +23,7 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  margin-bottom: 28px;
 }
 .hero-scroll-down-container {
   display: flex;
@@ -45,4 +46,44 @@
 }
 .hero-image-container {
   border-radius: 30px;
+}
+@media screen and (min-width: 768px) {
+  .hero-section-container {
+    gap: 40px;
+  }
+  .hero-title-and-scroll-down {
+    display: flex;
+    gap: 11px;
+  }
+  .hero-title-and-description {
+    max-width: 557px;
+  }
+  .hero-title {
+    font-size: 70px;
+    line-height: 0.86;
+  }
+  .hero-description {
+      font-size: 16px;
+      line-height: 1.25;
+      max-width: 480px;
+  }
+    .hero-scroll-down-container {
+    flex-direction: column;
+    }
+    .hero-scroll-down-link {
+        font-size: 20px;
+        line-height: 1;
+    }
+}
+@media screen and (min-width: 1280px) {
+  .hero-title-and-scroll-down {
+    justify-content: space-between;
+  }
+  .hero-title-and-description {
+    max-width: 597px;
+    }
+    .hero-title {
+      font-size: 72px;
+      line-height: 0.87;
+    }
 }

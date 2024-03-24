@@ -1,0 +1,126 @@
+.advert-wrapper  {
+background-position: center;
+background-size: cover;
+border-radius: 30px;
+background-image: linear-gradient(
+    to bottom,
+    rgb(12, 12, 12),
+    rgb(12, 12, 12)
+  ), url('/img/advertisement/mobile-advertisement-bg.png');
+width: 100%;
+padding: 60px 28px;
+
+
+}
+@media screen and (min-device-pixel-ratio:2),
+(min-resolution:192dpi),
+(min-resolution:2dppx) {
+    .advert {
+        background-image: linear-gradient(#0C0C0C,#0C0C0C) url('/img/advertisement/mobile-advertisement-bg@2x.png');
+    }
+}
+
+
+
+.advert-text-container {
+    display: flex;
+  flex-direction: column;
+  gap: 60px 20px;
+  margin-bottom: 28px;
+}
+
+
+.advert-paragraph {
+    font-weight: 600;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: #FBFBFB;
+}
+
+.text-other-color {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advert-contact-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+border-radius: 16px;
+width: 160px;
+height: 48px;
+}
+
+.advert-contact-link:hover,
+.advert-contact-link:focus,
+.advert-contact-link:active {
+  /* background-color: #fbfbfb; */
+}
+
+.advert-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ///////tablet////// */
+
+@media screen and (min-width: 768px) {
+    .advert {
+        background-image: linear-gradient(rgba(0, 4, 4, 0), rgba(0, 0, 0, 0.25)), url('../img/advertisement/tablet-advertisement-bg.png');
+        max-width: 768px;
+    }
+
+    .container {
+    }
+    .advert-wrapper {
+    }
+    .visually-hidden {
+    }
+    .advert-text-container {
+    }
+    .advert-paragraph {
+    }
+    .text-other-color {
+    }
+    .advert-contact-link {
+    }
+
+    /* .text-other-color {
+    color: rgba(251, 251, 251, 0.5);
+    } */
+
+}
+
+
+/* /////////desktop////// */
+
+@media screen and (min-width: 1280px) {
+    .advert {
+    background-image: linear-gradient(rgba(0, 4, 4, 0), rgba(0, 0, 0, 0.25)), url('./img/advertisement/desktop-advertisement-bg.png');
+    }
+
+    .container {
+    }
+    .advert-wrapper {
+    }
+    .visually-hidden {
+    }
+    .advert-text-container {
+    }
+    .advert-paragraph {
+    }
+    .text-other-color {
+    }
+    .advert-contact-link {
+    }
+
+    /* .text-other-color {
+        color: rgba(251, 251, 251, 0.5);
+        } */
+}

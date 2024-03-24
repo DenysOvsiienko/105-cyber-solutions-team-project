@@ -45,6 +45,7 @@
   color: #3350e9;
 }
 .hero-image-container {
+  overflow: hidden;
   border-radius: 30px;
 }
 @media screen and (min-width: 768px) {
@@ -63,17 +64,21 @@
     line-height: 0.86;
   }
   .hero-description {
-      font-size: 16px;
-      line-height: 1.25;
-      max-width: 480px;
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 480px;
+    margin-bottom: 0;
   }
-    .hero-scroll-down-container {
+  .hero-scroll-down-container {
     flex-direction: column;
-    }
-    .hero-scroll-down-link {
-        font-size: 20px;
-        line-height: 1;
-    }
+  }
+  .hero-scroll-down-link {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .hero-image-container {
+    border-radius: 50px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .hero-title-and-scroll-down {
@@ -81,9 +86,9 @@
   }
   .hero-title-and-description {
     max-width: 597px;
-    }
-    .hero-title {
-      font-size: 72px;
-      line-height: 0.87;
-    }
+  }
+  .hero-title {
+    font-size: 72px;
+    line-height: 0.87;
+  }
 }

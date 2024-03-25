@@ -4,12 +4,110 @@
     <div class="sale-content-box">
       <div class="sale-section-photo">
         <ul class="sale-section-list">
-          <li class="sale-section-item"><img src="" alt="" /></li>
-          <li class="sale-section-item"><img src="" alt="" /></li>
-          <li class="sale-section-item"><img src="" alt="" /></li>
-          <li class="sale-section-item"><img src="" alt="" /></li>
+          <li class="sale-section-item">
+            <div class="sale-section-item-wrap">
+              <picture
+                ><source
+                  srcset="
+                    ./img/sale/desktop-tablet-sale-marq-img-small-1.png    1x,
+                    ./img/sale/desktop-tablet-sale-marq-img-small-1@2x.png 2x
+                  "
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./img/sale/mobile-sale-marq-img-small-1.png    1x,
+                    ./img/sale/mobile-sale-marq-img-small-1@2x.png 2x
+                  "
+                  media="(max-width: 767px)" />
+                <img
+                  src="../img/sale/mobile-sale-marq-img-small-1.png"
+                  alt="clock"
+              /></picture>
+            </div>
+          </li>
+          <li class="sale-section-item">
+            <div class="sale-section-item-wrap">
+              <picture
+                ><source
+                  srcset="
+                    ./img/sale/desktop-tablet-sale-marq-img-small-2.png    1x,
+                    ./img/sale/desktop-tablet-sale-marq-img-small-2@2x.png 2x
+                  "
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./img/sale/mobile-sale-marq-img-small-2.png    1x,
+                    ./img/sale/mobile-sale-marq-img-small-2@2x.png 2x
+                  "
+                  media="(max-width: 767px)" />
+                <img
+                  src="../img/sale/mobile-sale-marq-img-small-2.png"
+                  alt="clock"
+              /></picture>
+            </div>
+          </li>
+          <li class="sale-section-item">
+            <div class="sale-section-item-wrap">
+              <picture
+                ><source
+                  srcset="
+                    ./img/sale/desktop-tablet-sale-marq-img-small-3.png    1x,
+                    ./img/sale/desktop-tablet-sale-marq-img-small-3@2x.png 2x
+                  "
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./img/sale/mobile-sale-marq-img-small-3.png    1x,
+                    ./img/sale/mobile-sale-marq-img-small-3@2x.png 2x
+                  "
+                  media="(max-width: 767px)" />
+                <img
+                  src="../img/sale/mobile-sale-marq-img-small-3.png"
+                  alt="clock"
+              /></picture>
+            </div>
+          </li>
+          <li class="sale-section-item">
+            <div class="sale-section-item-wrap">
+              <picture
+                ><source
+                  srcset="
+                    ./img/sale/desktop-tablet-sale-marq-img-small-4.png    1x,
+                    ./img/sale/desktop-tablet-sale-marq-img-small-4@2x.png 2x
+                  "
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./img/sale/mobile-sale-marq-img-small-4.png    1x,
+                    ./img/sale/mobile-sale-marq-img-small-4@2x.png 2x
+                  "
+                  media="(max-width: 767px)" />
+                <img
+                  src="./img/sale/mobile-sale-marq-img-small-4.png"
+                  alt="clock"
+              /></picture>
+            </div>
+          </li>
         </ul>
-        <img class="sale-main-photo" src="" alt="" />
+        <div class="main-photo-wrap">
+          <picture>
+            <source
+              srcset="
+                ./img/sale/desktop-tablet-sale-marq-img-main.png    1x,
+                ./img/sale/desktop-tablet-sale-marq-img-main@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/sale/mobile-sale-marq-img-main.png    1x,
+                ./img/sale/mobile-sale-marq-img-main@2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img class="sale-main-photo" src="./img/sale/mobile-sale-marq-img-main.png" alt="clock">
+          </picture>
+        </div>
       </div>
       <div class="sale-description-product-box">
         <div class="sale-description-product">
@@ -19,7 +117,9 @@
           <p class="sale-product-tag">Product tag: 706587</p>
         </div>
         <div class="sale-price-field">
-          <p class="sale-price">€1500</p>
+          <div class="sale-price-wrap">
+            <p class="sale-price">€1500</p>
+          </div>
           <p class="sale-previous-price">€3000</p>
         </div>
         <p class="sale-text-information">

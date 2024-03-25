@@ -123,6 +123,7 @@
   line-height: 1.33;
   color: #fbfbfb;
 }
+
 /* ___Tablet adaptation___ */
 @media screen and (min-width: 768px) {
   .sale-title {
@@ -199,12 +200,7 @@
     width: 100%;
   }
 
-  /* .main-photo-wrap {
-  } */
-
   .sale-description-product-box {
     max-width: 530px;
   }
 }
-
-/* /product description */

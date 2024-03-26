@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', function () {
       const section = document.getElementById(sectionId);
 
       if (section) {
-        const sectionTop = section.offsetTop - 50;
+        const sectionTop = section.offsetTop - 100;
         const sectionHeight = section.clientHeight;
 
         if (scrollY >= sectionTop && scrollY <= sectionTop + sectionHeight) {

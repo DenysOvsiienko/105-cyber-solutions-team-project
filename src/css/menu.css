@@ -98,9 +98,9 @@
   color: #fbfbfb;
 }
 
-/* .menu-nav-link.active {
-  margin-bottom: 10px;
-} */
+.menu-nav-link.active::after {
+  opacity: 1;
+}
 
 .menu-nav-link::after {
   position: absolute;

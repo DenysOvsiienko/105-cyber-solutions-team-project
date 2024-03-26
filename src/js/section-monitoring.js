@@ -1,39 +1,38 @@
-function scrollToTop(event) {
-  event.preventDefault();
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
+window.addEventListener('DOMContentLoaded', function () {
+  const headerNavLinks = document.querySelectorAll('.header-menu-link');
+  const mobileNavLinks = document.querySelectorAll('.menu-nav-link');
 
-function updateActiveLinks() {
-  const scrollWindowPosition = window.scrollY;
-  const headerHeight = header.offsetHeight;
+  function highlightNavLink(navLinks) {
+    let scrollY = window.pageYOffset;
 
-  menuLinks.forEach(link => {
-    const sectionId = link.getAttribute('href').substring(1);
-    const section = document.getElementById(sectionId);
+    navLinks.forEach(link => {
+      const sectionId = link.getAttribute('href').substring(1);
+      const section = document.getElementById(sectionId);
 
-    if (section) {
-      const sectionTop =
-        section.getBoundingClientRect().top + window.scrollY - headerHeight;
-      const sectionBottom = sectionTop + section.clientHeight;
+      if (section) {
+        const sectionTop = section.offsetTop - 50;
+        const sectionHeight = section.clientHeight;
 
-      link.classList.toggle(
-        'active',
-        scrollWindowPosition >= sectionTop &&
-          scrollWindowPosition < sectionBottom
-      );
-    }
+        if (scrollY >= sectionTop && scrollY <= sectionTop + sectionHeight) {
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+          });
+          link.classList.add('active');
+        }
+      }
+    });
+  }
+
+  window.addEventListener('scroll', function () {
+    highlightNavLink(headerNavLinks);
+    highlightNavLink(mobileNavLinks);
   });
-}
 
-const header = document.querySelector('.page-header');
-const menuLinks = document.querySelectorAll(
-  '.header-menu-link, .menu-nav-link'
-);
-const scrollToTopLink = document.querySelector('a[href="#hero"]');
-
-window.addEventListener('scroll', function () {
-  header.classList.toggle('scrolled', window.scrollY > 0);
-  updateActiveLinks();
+  const heroNavLink = document.querySelector('.header-menu-link[href="#hero"]');
+  if (heroNavLink) {
+    heroNavLink.addEventListener('click', function (event) {
+      event.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 });
-
-scrollToTopLink.addEventListener('click', scrollToTop);

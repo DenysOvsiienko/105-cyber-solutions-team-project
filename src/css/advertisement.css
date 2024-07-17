@@ -41,6 +41,7 @@
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
+  outline: transparent;
   width: 160px;
   height: 48px;
   background-color: transparent;
@@ -48,7 +49,7 @@
 }
 
 .advert-contact-link:hover,
-.advert-contact-link:focus,
+.advert-contact-link:focus-visible,
 .advert-contact-link:active {
   background-color: #fbfbfb;
   color: #0c0c0c;

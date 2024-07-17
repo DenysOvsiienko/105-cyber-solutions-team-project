@@ -39,7 +39,7 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-networks-link:focus,
+.footer-social-networks-link:focus-visible,
 .footer-social-networks-link:hover,
 .footer-social-networks-link:active {
   fill: #ffffff;
@@ -66,7 +66,7 @@
   align-items: center;
   width: 152px;
   height: 44px;
-
+  outline: transparent;
   border-radius: 16px;
   border: 1px solid rgba(251, 251, 251, 0.2);
   color: #fbfbfb;
@@ -79,7 +79,8 @@
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-phone-link:hover,
-.footer-phone-link:focus {
+.footer-phone-link:active,
+.footer-phone-link:focus-visible {
   color: #0c0c0c;
   border: 1px solid rgba(251, 251, 251, 0.15);
   background-color: #fbfbfb;

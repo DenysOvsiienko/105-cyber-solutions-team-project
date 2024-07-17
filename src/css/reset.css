@@ -103,7 +103,7 @@ body {
 }
 
 .main-btn:hover,
-.main-btn:focus,
+.main-btn:focus-visible,
 .main-btn:active {
   background-color: #1f3cd4;
 }

@@ -25,6 +25,7 @@
 }
 
 .catalog-list-item:hover,
+.catalog-list-item:focus-visible,
 .catalog-list-item:active {
   box-shadow: 0px 2px 4px 0px rgba(46, 47, 66, 0.08),
     0px 1px 6px 0px rgba(46, 47, 66, 0.16),

@@ -75,6 +75,7 @@
   .header-menu-link {
     position: relative;
     padding-bottom: 10px;
+    outline: transparent;
   }
   .header-menu-link::after {
     display: block;
@@ -96,7 +97,7 @@
   }
 
   .header-menu-link:hover::after,
-  .header-menu-link:focus::after,
+  .header-menu-link:focus-visible::after,
   .header-menu-link:active::after {
     opacity: 1;
   }
@@ -128,9 +129,10 @@
   }
 
   .header-social-item-link:hover,
-  .header-social-item-link:focus,
+  .header-social-item-link:focus-visible,
   .header-social-item-link:active {
     border: 1px solid rgba(51, 80, 233, 0.1);
     fill: #3350e9;
+    outline: transparent;
   }
 }

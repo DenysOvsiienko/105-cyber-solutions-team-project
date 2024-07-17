@@ -122,7 +122,14 @@
   font-size: 12px;
   line-height: 1.33;
   color: #fbfbfb;
+  outline: transparent;
   background-color: transparent;
+}
+
+.sale-features-item-btn:hover,
+.sale-features-item-btn:focus-visible,
+.sale-features-item-btn:active {
+  background-color: #1f3cd4;
 }
 
 /* ___Tablet adaptation___ */

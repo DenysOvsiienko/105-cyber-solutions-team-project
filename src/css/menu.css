@@ -118,7 +118,7 @@
 }
 
 .menu-nav-link:hover::after,
-.menu-nav-link:focus::after,
+.menu-nav-link:focus-visible::after,
 .menu-nav-link:active::after {
   opacity: 1;
 }
@@ -152,7 +152,7 @@
 }
 
 .menu-social-media-link:hover,
-.menu-social-media-link:focus,
+.menu-social-media-link:focus-visible,
 .menu-social-media-link:active {
   opacity: 1;
 }

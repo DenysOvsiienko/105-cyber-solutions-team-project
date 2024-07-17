@@ -106,6 +106,7 @@
 .contact-us .main-btn {
   min-width: 134px;
   height: 42px;
+  outline: transparent;
 }
 
 .contact-img-box {
